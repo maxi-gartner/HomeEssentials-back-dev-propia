@@ -133,7 +133,7 @@ export let products = [
   {
     name: "Induction Cooktop",
     description: "High-performance induction cooktop with multiple cooking zones and precise temperature control.",
-    price: 119.996.0,
+    price: 119.996,
     category_id: "Kitchen Appliances",
     manufacturer_id: "TechHome",
     stock_Available: 10,
@@ -143,7 +143,7 @@ export let products = [
   {
     name: "Convection Oven",
     description: "Versatile convection oven with multiple cooking modes and adjustable temperature settings.",
-    price: 99.996.0,
+    price: 99.996,
     category_id: "Kitchen Appliances",
     manufacturer_id: "PowerTech Appliances",
     stock_Available: 5,
@@ -153,7 +153,7 @@ export let products = [
   {
     name: "Kitchen Knife Set",
     description: "High-quality knife set with a variety of blades for all your culinary needs.",
-    price: 35.996.0,
+    price: 35.996,
     category_id: "Kitchen Tools",
     manufacturer_id: "KitchenGurus",
     stock_Available: 15,
@@ -163,7 +163,7 @@ export let products = [
   {
     name: "Blender",
     description: "Powerful blender for making smoothies, soups, and sauces with ease.",
-    price: 31.996.0,
+    price: 31.996,
     category_id: "Kitchen Appliances",
     manufacturer_id: "TechHome",
     stock_Available: 8,
@@ -174,7 +174,7 @@ export let products = [
   {
     name: "Coffee Maker",
     description: "Automatic coffee maker with programmable brewing options and built-in grinder.",
-    price: 51.996.0,
+    price: 51.996,
     category_id: "Kitchen Appliances",
     manufacturer_id: "PowerTech Appliances",
     stock_Available: 12,
@@ -413,7 +413,7 @@ export let products = [
   {
     name: "Curved OLED TV",
     description: "Immersive curved OLED TV with deep black levels and wide viewing angles.",
-    price: 1.499.99,
+    price: 1.499,
     category_id: "Televisions",
     manufacturer_id: "GHI Edge",
     stock_Available: 15,
@@ -423,7 +423,7 @@ export let products = [
   {
     name: "QLED TV",
     description: "QLED TV with Quantum Dot technology for enhanced color accuracy and brightness.",
-    price: 1.299.99,
+    price: 1.299,
     category_id: "Televisions",
     manufacturer_id: "ABC Electronics",
     stock_Available: 8,
@@ -433,7 +433,7 @@ export let products = [
   {
     name: "Outdoor TV",
     description: "Weatherproof outdoor TV with high brightness for clear viewing even in sunlight.",
-    price: 1.999.99,
+    price: 1.999,
     category_id: "Televisions",
     manufacturer_id: "DigitalEvo",
     stock_Available: 12,
