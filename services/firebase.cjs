@@ -1,5 +1,14 @@
 let admin = require("firebase-admin")
 
+let serviceAccount = require("../minga-firebase-key.json")
+
+const BUCKET = "minga-firebase.appspot.com"
+
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount),
+  storageBucket: BUCKET,
+});
+
 const bucket = admin.storage().bucket()
 
 const uploadPhoto = async (req, res, next) => {
