@@ -3,7 +3,7 @@ import User from "../../models/User.js"
 const signout = async (req, res, next) => {
   const {email} = req.user
   try {
-    await User.findOneAndUpdate(
+    await User.findOneAndUpdate( 
       {email},
       {is_online: false},
       {new: true}
