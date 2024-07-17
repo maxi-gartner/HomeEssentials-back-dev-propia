@@ -7,7 +7,7 @@ const signout = async (req, res, next) => {
       {email},
       {is_online: false},
       {new: true}
-    ) 
+    )  
     return res.status(200) 
     .json({
       success: true,
