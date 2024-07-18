@@ -5,7 +5,7 @@ const signout = async (req, res, next) => {
   try {
     await User.findOneAndUpdate( 
       {email},
-      {is_online: false},
+      {is_online: false}, 
       {new: true}
     )  
     return res.status(200) 
