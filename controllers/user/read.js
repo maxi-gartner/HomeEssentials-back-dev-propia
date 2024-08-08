@@ -10,6 +10,6 @@ return res.status(200)                   //configuro la respuesta que le tengo q
     }
     catch(error){}
  console.log(error)
- return res.status(400).json({error: "a ocurrido un problema"})
+ return res.status(400).json({error: "a ocurrido un problema"})  
   } 
   export default read 
